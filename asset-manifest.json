@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/react-crypto-rates-app/static/css/main.3f480d55.css",
-    "main.js": "/react-crypto-rates-app/static/js/main.cd15c96f.js",
+    "main.js": "/react-crypto-rates-app/static/js/main.7e76dcc4.js",
     "static/js/787.ab48ed11.chunk.js": "/react-crypto-rates-app/static/js/787.ab48ed11.chunk.js",
+    "static/media/loading-yellow.gif": "/react-crypto-rates-app/static/media/loading-yellow.90aa511c08ad1c5c1ffc.gif",
     "index.html": "/react-crypto-rates-app/index.html",
     "main.3f480d55.css.map": "/react-crypto-rates-app/static/css/main.3f480d55.css.map",
-    "main.cd15c96f.js.map": "/react-crypto-rates-app/static/js/main.cd15c96f.js.map",
+    "main.7e76dcc4.js.map": "/react-crypto-rates-app/static/js/main.7e76dcc4.js.map",
     "787.ab48ed11.chunk.js.map": "/react-crypto-rates-app/static/js/787.ab48ed11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f480d55.css",
-    "static/js/main.cd15c96f.js"
+    "static/js/main.7e76dcc4.js"
   ]
 }
