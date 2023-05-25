@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-crypto-rates-app/static/css/main.3f480d55.css",
+    "main.js": "/react-crypto-rates-app/static/js/main.cd15c96f.js",
+    "static/js/787.ab48ed11.chunk.js": "/react-crypto-rates-app/static/js/787.ab48ed11.chunk.js",
+    "index.html": "/react-crypto-rates-app/index.html",
+    "main.3f480d55.css.map": "/react-crypto-rates-app/static/css/main.3f480d55.css.map",
+    "main.cd15c96f.js.map": "/react-crypto-rates-app/static/js/main.cd15c96f.js.map",
+    "787.ab48ed11.chunk.js.map": "/react-crypto-rates-app/static/js/787.ab48ed11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f480d55.css",
+    "static/js/main.cd15c96f.js"
+  ]
+}
