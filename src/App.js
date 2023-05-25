@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Clock from "./components/Clock";
+import Loading from "./assets/loading-yellow.gif"
 
 const api = {
   key: "C1C960D2-209E-4575-8519-4FC757614416",
@@ -10,15 +11,19 @@ const api = {
 function App() {
   const [query, setQuery] = useState("");
   const [currency, setCurrency] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleSubmit = (event) => {
     event.preventDefault();
     search();
   };
 
+
   useEffect(() => {
     console.log(currency);
   }, [currency]);
+
+ 
 
   const search = () => {
     fetch(
@@ -29,7 +34,8 @@ function App() {
       .then((response) => response.json())
       .then((result) => {
         setCurrency(result);
-        setQuery("");
+        setQuery("")
+        setIsLoading(false);
       })
       .catch((error) => {
         console.error("Error fetching currency data:", error);
@@ -38,6 +44,8 @@ function App() {
 
   const handleInputChange = (event) => {
     setQuery(event.target.value);
+    setCurrency(null);
+    setIsLoading(true);
   };
 
   return (
@@ -70,6 +78,8 @@ function App() {
         ) : (
           <p>Search for a crypto currency (btc, doge, xrp etc.)</p>
         )}
+       
+        {query !== "" && isLoading && <><img src={Loading} style={{width: "75px"}} ></img><p>L o a d i n g . . .</p></> }
       </div>
     </div>
   );
